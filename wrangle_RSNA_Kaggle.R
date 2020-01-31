@@ -25,9 +25,9 @@ wrangle_RSNA_Kaggle = function(data_dir) {
   create.volumes.from.dcm.slices(data_dir, listing)
   
   # Copy all the intraparencymal slices somewhere with Dicom -> Nifti conversion
-  wildcard = 'intraparenchymal'
-  copy.wildcard.scans.as.NII.to.another.folder(data_dir, labels,
-                                               raw_csv, wildcard)
+  # wildcard = 'intraparenchymal'
+  # copy.wildcard.scans.as.NII.to.another.folder(data_dir, labels,
+  #                                              raw_csv, wildcard)
   
 }  
 
