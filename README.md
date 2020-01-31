@@ -3,6 +3,10 @@
 Download the "Stage 2" data from 
 https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data
 
+Some backgrond on 3D volume, see this from Kaggle forum from `anjum48`
+https://www.kaggle.com/anjum48/reconstructing-3d-volumes-from-metadata
+
+
 ## DCM -> NifTI
 
 1) Uncompress the data (`.dcm` slices) into a folder, e.g. `data_dir = '/mnt/wwn-0x5000c500b6b1dabd/rsna-intracranial-hemorrhage-detection'` in `wrangle_RSNA_Kaggle.R`
