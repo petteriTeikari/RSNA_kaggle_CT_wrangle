@@ -14,7 +14,7 @@ Will fail with default settings as the _z_-distances are not constant per volume
 
 ## HU Range Check
 
-Most of the `.dcm`s had air set at 0 HU (and the noise above it) and they are corrected to "correct" value of -1024 (plus the noise above it). You could re-check this, but most of the air values should be at and above -1000.
+Most of the `.dcm`s had air set at 0 HU (and the noise above it) and they are corrected to "correct" value of -1024 (plus the noise above it). You could re-check this, but most of the air values should be at and above -1000. This util reads in the HU intensity histograms saved during first pass.
 
 ## `kaggle_check_headers.R`
 
