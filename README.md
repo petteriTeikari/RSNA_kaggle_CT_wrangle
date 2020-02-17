@@ -12,6 +12,8 @@ https://www.kaggle.com/anjum48/reconstructing-3d-volumes-from-metadata
 1) Uncompress the data (`.dcm` slices) into a folder, e.g. `data_dir = '/mnt/wwn-0x5000c500b6b1dabd/rsna-intracranial-hemorrhage-detection'` in `wrangle_RSNA_Kaggle.R`
 2) Run `wrangle_RSNA_Kaggle(data_dir)` with the proper `data_dir`
 
+TODO! Not the most computationally efficient implementation atm but gets the work done
+
 ### `dcm2niix`?
 
 Will fail with default settings as the _z_-distances are not constant per volume, so manual slice sorting has been done and NifTIs are saved with basic metadata, i.e. voxel dimensions
